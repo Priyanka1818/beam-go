@@ -1,28 +1,28 @@
 # beam-go
-## First Download Go. [Go download](https://go.dev/dl/)
+## . First Download Go. [Go download](https://go.dev/dl/)
 
-## Install Go.
+## . Install Go.
 
-## Create a folder named 'beam-go'
+## . Create a folder named 'beam-go'
 
-## Open gitbash and type this command
+## . Open gitbash and type this command
 
 go mod init github.com/<Priyanka1818>/beam-go
 
-## For version of go, use this command:
+## . For version of go, use this command:
 
 go version
 
-## For getting Apache beam SDK,
+## . For getting Apache beam SDK,
 
 go get -u github.com/apache/beam/sdks/v2/go/pkg/beam
 
-## For wordcount program,
+## . For wordcount program,
 
 go install github.com/apache/beam/sdks/v2/go/examples/wordcount
 
-## To run the wordcount program, type in the command
+##  . To run the wordcount program, type in the command
 
 wordcount --input sample.txt --output count
 
-## The output file will be generated with the name "counts".
+## . The output file will be generated with the name "counts".
